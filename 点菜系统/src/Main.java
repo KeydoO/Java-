@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @Author: Xinyu Wei
  * @Description:
  * @Date: Created on 2023/2/25
- * @Modified By:
+ * @Modified:
  */
 public class Main {
     static void mainPage() {
@@ -46,14 +46,30 @@ public class Main {
                         if (op2 == 0)
                             break;
                         switch (op2) {
-                            case 1 -> order.addDish(menu.dish1);
-                            case 2 -> order.addDish(menu.dish2);
-                            case 3 -> order.addDish(menu.dish3);
-                            case 4 -> order.addDish(menu.dish4);
-                            case 5 -> order.addDish(menu.dish5);
-                            case 6 -> order.addDish(menu.dish6);
-                            case 7 -> order.addDish(menu.dish7);
-                            case 8 -> order.addDish(menu.dish8);
+                            case 1:
+                                order.addDish(menu.dish1);
+                                break;
+                            case 2:
+                                order.addDish(menu.dish2);
+                                break;
+                            case 3:
+                                order.addDish(menu.dish3);
+                                break;
+                            case 4:
+                                order.addDish(menu.dish4);
+                                break;
+                            case 5:
+                                order.addDish(menu.dish5);
+                                break;
+                            case 6:
+                                order.addDish(menu.dish6);
+                                break;
+                            case 7:
+                                order.addDish(menu.dish7);
+                                break;
+                            case 8:
+                                order.addDish(menu.dish8);
+                                break;
                         }
                     }
                     break;
@@ -76,15 +92,32 @@ public class Main {
                                     if (op3 == 0)
                                         break;
                                     switch (op3) {
-                                        case 1 -> order.addDish(menu.dish1);
-                                        case 2 -> order.addDish(menu.dish2);
-                                        case 3 -> order.addDish(menu.dish3);
-                                        case 4 -> order.addDish(menu.dish4);
-                                        case 5 -> order.addDish(menu.dish5);
-                                        case 6 -> order.addDish(menu.dish6);
-                                        case 7 -> order.addDish(menu.dish7);
-                                        case 8 -> order.addDish(menu.dish8);
-                                        default -> System.out.println("请输入正确选项！");
+                                        case 1:
+                                            order.addDish(menu.dish1);
+                                            break;
+                                        case 2:
+                                            order.addDish(menu.dish2);
+                                            break;
+                                        case 3:
+                                            order.addDish(menu.dish3);
+                                            break;
+                                        case 4:
+                                            order.addDish(menu.dish4);
+                                            break;
+                                        case 5:
+                                            order.addDish(menu.dish5);
+                                            break;
+                                        case 6:
+                                            order.addDish(menu.dish6);
+                                            break;
+                                        case 7:
+                                            order.addDish(menu.dish7);
+                                            break;
+                                        case 8:
+                                            order.addDish(menu.dish8);
+                                            break;
+                                        default:
+                                            System.out.println("请输入正确选项！");
                                     }
                                 }
                                 break;
@@ -97,15 +130,32 @@ public class Main {
                                     if (op3 == 0)
                                         break;
                                     switch (op3) {
-                                        case 1 -> order.delDish(menu.dish1);
-                                        case 2 -> order.delDish(menu.dish2);
-                                        case 3 -> order.delDish(menu.dish3);
-                                        case 4 -> order.delDish(menu.dish4);
-                                        case 5 -> order.delDish(menu.dish5);
-                                        case 6 -> order.delDish(menu.dish6);
-                                        case 7 -> order.delDish(menu.dish7);
-                                        case 8 -> order.delDish(menu.dish8);
-                                        default -> System.out.println("请输入正确选项！");
+                                        case 1:
+                                            order.delDish(menu.dish1);
+                                            break;
+                                        case 2:
+                                            order.delDish(menu.dish2);
+                                            break;
+                                        case 3:
+                                            order.delDish(menu.dish3);
+                                            break;
+                                        case 4:
+                                            order.delDish(menu.dish4);
+                                            break;
+                                        case 5:
+                                            order.delDish(menu.dish5);
+                                            break;
+                                        case 6:
+                                            order.delDish(menu.dish6);
+                                            break;
+                                        case 7:
+                                            order.delDish(menu.dish7);
+                                            break;
+                                        case 8:
+                                            order.delDish(menu.dish8);
+                                            break;
+                                        default:
+                                            System.out.println("请输入正确选项！");
                                     }
                                 }
                                 break;
